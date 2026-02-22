@@ -28,14 +28,20 @@ c
 // Define structure
 
 struct Node {
+    
     int data;
+   
     struct Node* next;
 };
 
 int main() {
+   
     // Creating nodes manually
+   
     struct Node* head = NULL;
+  
     struct Node* second = NULL;
+  
     struct Node* third = NULL;
 
     // Allocate memory
