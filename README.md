@@ -26,6 +26,7 @@ c
 #include <stdlib.h>
 
 // Define structure
+
 struct Node {
     int data;
     struct Node* next;
